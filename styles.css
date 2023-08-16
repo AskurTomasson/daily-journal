@@ -485,6 +485,7 @@ a {
     border-radius: 4px;
     grid-column: 1 / -1;
     grid-row: 1 / 1;
+    cursor: pointer;
 }
 
 .blog-card-date {
