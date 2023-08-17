@@ -104,7 +104,7 @@ function renderWhoAmIHtml() {
         <h1 class="wai-title">Hello there! My name is Askur.</h1>
         <p class="wai-text">I've been learning how to code for about 8 months now and it's alot of fun,
         I currently work as a Store Operations Manager for a company called Pierce group in the motorsport industry.
-        However my goal is to switch over to front-end developing full time!</p>
+        My goal is to switch over to developing full time!</p>
         <h2 class="wai-sub-title">My journey into the world of computers</h2>
         <p class="wai-sub-text">It all started in primary school with my cousin wanting to get into this new hot game...
         It was called something like World of Warcraft, we had played a little bit of other games during the early stages of internet but nothing like this.

@@ -185,6 +185,11 @@ a {
     .header-img {
         width: 18%;
     }
+
+    main {
+        max-width: 2200px;
+        width: 100%
+    }
 }
 
 /* SHOWCASE DIV */
@@ -200,7 +205,6 @@ a {
 }
 
 .title-img {
-    max-height: 30vh;
     width: 100%;
     grid-column: 1 / -1;
     grid-row: 1 / -1;
@@ -223,7 +227,7 @@ a {
 
 .title-blog-text {
     font-size: 1rem;
-    grid-column: 2 / 3;
+    grid-column: 2 / 4;
     grid-row: 5 / 6
 }
 
@@ -247,7 +251,9 @@ a {
 
 @media (min-width: 900px) {
     .title-img {
-        max-height: 90vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom;
     }
 
     .title-date {
@@ -256,10 +262,16 @@ a {
 
     .post-title {
         font-size: 3rem;
+        grid-column: 2 / 4;
     }
 
     .title-blog-text {
         font-size: 1.5rem;
+    }
+    
+    .showcase-post-div {
+        grid-template-rows: 250px 50px 30px 50px 60px 1em;
+        overflow: hidden;
     }
 }
 
@@ -269,6 +281,7 @@ a {
     display: none;
     grid-template-columns: 1em auto auto 1em;
     grid-template-rows: auto auto auto 1em auto 1em auto 2em;
+    overflow: hidden;
 }
 
 .selected-date {
@@ -286,8 +299,9 @@ a {
 .selected-img {
     grid-column: 1 / -1;
     grid-row: 3 / 3;
-    width: 100%;
     margin-top: 0.5em;
+    width: 100%;
+    overflow: hidden;
 }
 
 .selected-blog-text {
@@ -307,6 +321,21 @@ a {
     text-align: center;
     font-size: 1.4rem;
     margin-bottom: 1.2em;
+}
+
+@media (min-width: 900px) {
+    .selected-post-div {
+        grid-template-rows: auto auto 420px 1em auto 1em auto 2em;
+        overflow: hidden;
+    }
+
+    .selected-img {
+        object-fit: cover;
+        overflow: hidden;
+        grid-row: 3 / 3;
+        max-height: 420px;
+    }
+    
 }
 
 
@@ -367,7 +396,13 @@ a {
 
     .wai-img {
         width: 50%;
+        margin-top: 1.2em;
     }
+
+    .wai-text, .wai-sub-text {
+        font-size: 1.2rem;
+    }
+
 }
 
 /* SOCIAL ICONS */
@@ -486,6 +521,8 @@ a {
     grid-column: 1 / -1;
     grid-row: 1 / 1;
     cursor: pointer;
+    min-height: 150px;
+    max-height: 150px;
 }
 
 .blog-card-date {

@@ -11,7 +11,7 @@ export const blogPosts = [
                     One thing I've learned is that life experience will teach you more then any school would,
                     You just gotta know how to read the signs that it's throwing at you and the path it's laying.
                     `,
-        icon: `/images/puzzling.png`,
+        icon: `/images/puzzle1.jpeg`,
         postId: 7,
         header: "Puzzling"
     },
@@ -51,7 +51,7 @@ export const blogPosts = [
                     It was a simple function that took in a value (when scanning a barcode) and searched that value in a database,
                     if the value existed it would throw an alert saying that this value allready exist and needs to be processed.
                     Our IT says that I might be up for more projects in the company that I manage the store for, that would be great experience for me!`,
-        icon: `/images/positivity.jpeg`,
+        icon: `/images/positivity1.jpeg`,
         postId: 4,
         header: "Positivity"
     },
@@ -61,9 +61,9 @@ export const blogPosts = [
         titlePost: `This day was full off emotions, having to watch something
                     I cared about so deeply and fully go into the arms of someone else...`,
         fullPost: `I've been racing in motorsports almost all my life, less then my dad wanted me to probably but I think he's happy anyway,
-                    Jokes aside today was an emotional day as I sold my racebike and I owe many thank to the people that believed in me and helped me through my racing, 
+                    Jokes aside today was an emotional day as I sold my racebike and I owe many thanks to the people that believed in me and helped me through my racing, 
                     wheter it be rally, crosscart or dirt biking.`,
-        icon: `/images/hurting.webp`,
+        icon: `/images/hurting1.jpeg`,
         postId: 3,
         header: "Hurting"
     },
@@ -76,7 +76,7 @@ export const blogPosts = [
                     I started my HTML, CSS and JavaScript in freecodecamp like many others and I really do recommend that you check it out however 
                     I feelt like I had a hard time applying it to anywhere, I would really really really recommend Scrimba to anyone who wants to learn coding. 
                     It's the greatest studying tool that I've come upon and it makes sure you know what you're looking at.`,
-        icon: `/images/lost.jpeg`,
+        icon: `/images/lost1.avif`,
         postId: 2,
         header: "Lost"
     },
