@@ -208,6 +208,9 @@ a {
     width: 100%;
     grid-column: 1 / -1;
     grid-row: 1 / -1;
+    object-fit: cover;
+    min-height: 300px; 
+    max-height: 300px;  
 }
 
 .title-date {
@@ -234,6 +237,7 @@ a {
 @media (min-width: 700px) {
     .title-img {
         max-height: 90vh;
+        min-height: 500px;
     }
 
     .title-date {
