@@ -209,17 +209,17 @@ a {
     grid-column: 1 / -1;
     grid-row: 1 / -1;
     object-fit: cover;
-    min-height: 300px; 
-    max-height: 300px;  
+    min-height: 280px; 
+    max-height: 280px;  
 }
 
 .title-date {
     font-size: 0.85rem;
     grid-column: 2 / 2;
     grid-row: 3 / 4;
-    color: #d34600;
+    color: white;
     text-transform: uppercase;
-    text-shadow: none;
+    text-shadow: 1px 1px 0px black;
 }
 
 .post-title {
@@ -525,8 +525,8 @@ a {
     grid-column: 1 / -1;
     grid-row: 1 / 1;
     cursor: pointer;
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 160px;
+    max-height: 160px;
 }
 
 .blog-card-date {
