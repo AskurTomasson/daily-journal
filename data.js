@@ -2,7 +2,7 @@ export const blogPosts = [
     {
         name: "This is just a piece of my life puzzle",
         date: "August 9, 2023",
-        titlePost: `Self-learning has helped me so alot and I am now 
+        titlePost: `Self-learning has helped me so much and I am now 
                     more confident heading into new challenges in life.`,
         fullPost: `Back in school I used to struggle with focus, I just wanted to be a kid and have fun 
                     with alot of freedom and responsibility was not something I could handle.
